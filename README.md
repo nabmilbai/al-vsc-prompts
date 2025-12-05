@@ -13,7 +13,7 @@ A collection of VS Code prompt templates for AL (Application Language) developme
 ## Quick Start
 
 1. **Save the prompts** in one of these locations:
-   - **Repository workspace**: Copy `.prompt.md` files to `.github\prompts` in your project root
+   - **Repository workspace**: Copy `.prompt.md` files to `App\.github\prompts` in your project root
    - **Global VS Code**: Save to `C:\Users\<user>\AppData\Roaming\Code\User\prompts` for use across all projects
 2. Open your AL project in VS Code with GitHub Copilot enabled
 3. Use the prompts with Copilot by referencing them in your chat
