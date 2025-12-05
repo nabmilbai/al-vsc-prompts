@@ -59,5 +59,21 @@ Maintain consistency across documents.
 
 Markdown-formatted documentation in English followed by full Swedish translation.
 
-## Code to document
-Focus on: [Insert the AL code here - path to the file, procedure name and what lines in the file to consider] 
+## Input Handling
+
+Accept input as:
+- **Code text**: Direct AL code snippet
+- **File path**: Absolute or relative path to .al file (e.g., "src/Codeunit/MyCodeunit.al" or "c:\path\to\file.al")
+- **Folder path**: Path to folder containing .al files (e.g., "src/" or "c:\path\to\folder")
+
+If file path provided:
+- Read the file content
+- Extract procedures based on specified lines or procedure name
+
+If folder path provided:
+- List .al files in the folder
+- Analyze each file for testable procedures
+- Generate tests for all procedures found
+
+## Code to test
+Focus on: [Provided code text, file path, or folder path here] 
